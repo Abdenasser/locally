@@ -116,6 +116,13 @@ class Locally {
     }
     await Navigator.push(context, pageRoute);
   }
+  
+  /// onSelectNotification
+  /// Obtains a string payload
+  /// And perform navigation function
+  Future<void> onSelectedNotification(String payload) async {
+    return payload;
+  }
 
   /// onDidReceiveNotification
   /// it required for IOS initialization
